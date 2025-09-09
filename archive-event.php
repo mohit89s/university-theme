@@ -37,6 +37,9 @@
       <?php }
       echo paginate_links();
     ?>
+
+    <hr class="section-break">
+    <p>Looking for previous completed events. <a href= " <?php echo site_url('/past-events') ?> "> Check out here </a> </p>
   </div>
 
 
